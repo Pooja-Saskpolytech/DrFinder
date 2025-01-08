@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor Details</title>
+</head>
+<body>
+    <h1>Doctor Details</h1>
+    <p><strong>Name:</strong> {{ doctor.name }}</p>
+    <p><strong>Specialty:</strong> {{ doctor.specialty }}</p>
+    <p><strong>Location:</strong> {{ doctor.location }}</p>
+    <p><strong>Years of Experience:</strong> {{ doctor.years_of_experience }}</p>
+    <a href="{{ url_for('index') }}">Back to List</a>
+</body>
+</html>
